@@ -1,0 +1,25 @@
+{
+	"type": "ItemLiquidGenerator",
+	"name": "Hydroelectric Generator",
+	"description": "Utilizes water to turn a turbine and produce electricity.",
+	"size": 2,
+	"hasPower": true,
+  "minLiquidEfficiency": 0.1,
+	"maxLiquidGenerate": 0.5,
+	"itemDuration": 30,
+	"powerProduction": 1.8,
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				{ "liquid": "water", "amount": 1 }
+			],
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "graphite", "amount": 50 }
+	],
+	"category": "power",
+	"research": "rotary-pump"
+}
